@@ -1,0 +1,138 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+    padding: 50px;
+}
+header {
+            color: #fff;
+            padding: 20px;
+            text-decoration: none;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+        header {
+      background-color: rgb(209, 233, 246);
+      background-size: cover; 
+      background-position: center; 
+      height: 20px;
+      text-align: center; 
+      color: black; 
+      text-decoration: none;
+    }
+        
+
+    
+    header img {
+        position: absolute; 
+        top: 0; 
+        left: 0; 
+        width: 200px; 
+        height: auto; 
+        margin: 10px; 
+    }
+
+    nav ul {
+            list-style-type: none;
+            padding: 0;
+            text-decoration: none;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+            text-decoration: none;
+        }
+
+        nav ul li a :hover {
+            color: rgb(16, 219, 26);
+            text-decoration: none;
+            
+        }
+        nav ul li a {
+            color: black;
+            text-decoration: none;
+            
+        }
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+article {
+    flex: 1 1 30%;
+    background-color: #ffffff;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 20px;
+    transition: box-shadow 0.3s;
+}
+
+article:hover {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+article h2 {
+    color: #3797a3;
+}
+
+article p {
+    color: #555;
+    line-height: 1.5;
+}
+
+article a {
+    display: block;
+    text-align: right;
+    text-decoration: none;
+    color: #179b85;
+}
+article img{
+    width: 500px;
+    height: 400px;
+}
+
+article a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: rgb(209, 233, 246) ;
+    color:black;
+    padding: 5px 0;
+    text-align: center;
+}
+.scroll-message {
+    background-color: rgba(209, 159, 150, 0.993);
+    color:black;
+    padding: 5px 0;
+    text-align: center;
+}
+
+.scroll-message marquee {
+    font-size: 1.1em;
+    font-weight: bold;
+}
+   body{
+    background-image: url(47ac6ca3a98a9932fa1446fccec87163.jpg);
+            background-size: cover;
+            background-position: center;
+          background-image :  padding-left: 20px;
+        }
+        .details{
+            text-align: right;
+        }
+   
+
+        
+                
